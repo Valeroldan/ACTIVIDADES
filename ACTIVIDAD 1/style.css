@@ -6,27 +6,33 @@ body{
     width: 100%;
     background-color: #f4f4f4;
     text-align: center;
+    overflow: hidden;
 }
 
 header{
     background-color: rgb(19, 151, 151);
     color: white;
     padding: 30px;
-    height: 15vh;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 main{
     margin: 0;
     background-color: beige;
-    height: 70vh;
+    height: 80%;
+    align-content: center;
 }
 
 .container{
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; estaba acaparando todo el espacio de la ventana y le quitaba espacio a otros elementos*/ 
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px 0 20px 0;
 }
 
 
@@ -39,6 +45,9 @@ button{
     font-size: 16px;
     margin-top: 10px;
     border-radius: 8px;
+    a{
+      color:white  
+    }
 }
 
 button:hover{
@@ -50,5 +59,31 @@ footer{
     color: white;
     text-align: center;
     padding: 10px;
-    height: 15vh;
+    height: 5%;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    p{
+        margin-top: 1rem !important;
+    }
 }
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    header{
+        height: 20%;
+    }
+
+    main{
+        height: 75%;
+    }
+
+    footer{
+        height: 5%;
+    }
+  }
