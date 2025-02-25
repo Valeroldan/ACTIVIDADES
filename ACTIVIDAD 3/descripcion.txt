@@ -1,0 +1,10 @@
+Grupo 20
+
+- Valentina Roldan Cano
+- Julián David Betancurth Castaño
+- Camilo Eduardo Gómez Dávila
+
+Actividad: Enlaces y Tablas
+
+Añade a tu primera página web (el blog personal), un enlace a otra página realizada por los integrantes del 
+grupo y una página con una tabla donde se indique el horario del bootcamp con todos sus componentes.
