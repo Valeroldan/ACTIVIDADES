@@ -6,25 +6,46 @@ body{
     width: 100%;
     background-color: #f4f4f4;
     text-align: center;
+    overflow: hidden;
 }
 
 header{
     background-color: rgb(19, 151, 151);
     color: white;
     padding: 30px;
+<<<<<<< HEAD
     height: 15vh;
+=======
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+>>>>>>> b89c10361ab1dda8c0a6121857739186bf02b0a4
 }
 
 main{
     margin: 0;
     background-color: beige;
+<<<<<<< HEAD
     height: 70vh;
+=======
+    height: 80%;
+    align-content: center;
+>>>>>>> b89c10361ab1dda8c0a6121857739186bf02b0a4
 }
 
 .container{
     width: 100%;
+<<<<<<< HEAD
     height: 100vh;
     display: flex;
+=======
+    /* height: 100vh; estaba acaparando todo el espacio de la ventana y le quitaba espacio a otros elementos*/ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 20px 0;
+>>>>>>> b89c10361ab1dda8c0a6121857739186bf02b0a4
 }
 
 
@@ -37,6 +58,9 @@ button{
     font-size: 16px;
     margin-top: 10px;
     border-radius: 8px;
+    a{
+      color:white  
+    }
 }
 
 button:hover{
@@ -48,5 +72,36 @@ footer{
     color: white;
     text-align: center;
     padding: 10px;
+<<<<<<< HEAD
     height: 15vh;
 }
+=======
+    height: 5%;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    p{
+        margin-top: 1rem !important;
+    }
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    header{
+        height: 20%;
+    }
+
+    main{
+        height: 75%;
+    }
+
+    footer{
+        height: 5%;
+    }
+  }
+>>>>>>> b89c10361ab1dda8c0a6121857739186bf02b0a4
