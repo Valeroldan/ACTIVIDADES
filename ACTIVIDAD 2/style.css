@@ -42,3 +42,8 @@ img.card-img-top{
     align-items: flex-end;
 
 }
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
