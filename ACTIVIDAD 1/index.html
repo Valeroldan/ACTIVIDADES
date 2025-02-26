@@ -8,35 +8,46 @@
     <script src="script.js"></script>
     <title>ACTIVIDAD 1</title>
 </head>
-<body>
-    <header class="text-center">
+<body class="bg-light text-center">
+    <header class="bg-info text-white py-4">
         <h1>PRIMERA ACTIVIDAD</h1>
     </header>
-    <main>
-        <section class="">
+    <main class="bg-beige">
+
+        <section id="contenidoPrincipal">
             <div class="container">
-                <div class="row justify-content-center align-items-stretch">
+                <div class="row justify-content-center" style="width: 100%;">
                     <!-- Promedio Notas -->
-                    <div class="col-md-6 d-flex">
-                        <div class="card-container p-4 shadow bg-white rounded flex-fill text-center">
-                            <h2 class="text-center mb-4">Promedio de Notas</h2>
-                            <button id="promedio" type="" class="btn btn-success w-60" onclick=""><a href="promedio.html" target="">Ver más</a></button>
+                    <div class="col-md-6 mb-4 d-flex">
+                        <div class="card-container card p-4 shadow-sm bg-white rounded flex-fill text-center">
+                            <h2 class="mb-4">Promedio de Notas</h2>
+                            <button id="promedio" class="btn btn-success w-75" onclick="mostrarActividad('promedio')">Ver más</button>
                         </div>
                     </div>
         
                     <!-- Calculadora IMC -->
-                    <div class="col-md-6 d-flex mt-4 mt-md-0">
-                        <div class="card-container p-4 shadow bg-white rounded flex-fill text-center">
-                            <h2 class="text-center mb-4">Calculadora IMC</h2>
-                            <button id="promedio" type="" class="btn btn-success w-60" onclick="" >Ver más</button>
+                    <div class="col-md-6 mb-4 d-flex">
+                        <div class="card-container card p-4 shadow-sm bg-white rounded flex-fill text-center">
+                            <h2 class="mb-4">Calculadora IMC</h2>
+                            <button id="calculadora" class="btn btn-success w-75" onclick="mostrarActividad('calculadora')">Ver más</button>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>    
+        </section>
+        
+        <section id="iframeSection" style="display: none;">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe id="contenidoIframe" class="embed-responsive-item" src="" height="35vh" allowfullscreen></iframe>
+            </div>
+            <div class="container">
+                <button id="cerrarOpcion" class="btn btn-danger mt-3 w-50" onclick="cierraOpcion()">Cerrar</button>
+            </div>
+        </section>
+        
     </main>
-    <footer>
-        <p>&copy; 2025 Primera Actividad. Todos los derechos reservados</p>
+    <footer class="bg-dark text-white py-3">
+        <p class="mb-0">&copy; 2025 Primera Actividad. Todos los derechos reservados</p>
     </footer>
 </body>
 </html>
