@@ -1,0 +1,74 @@
+header{
+    background-color: goldenrod;
+    color: black;
+    padding: 20px;
+    margin-top: 0%;
+}
+section{
+    background-color: beige;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height: 100%;  
+}
+
+#horario{
+    background-color: rgb(162, 223, 144);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 14 px;
+    box-shadow: 0 0 10px;
+    text-align: center;
+}
+
+#pagina{
+    background-color: rgb(162, 223, 144);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 14 px;
+    box-shadow: 0 0 10px;
+    text-align: center;
+}
+
+footer{
+    background-color: burlywood;
+    
+}
+
+h2{
+    font-weight: bold;
+}
+
+img.card-img-top{
+    object-fit: cover; 
+    width: 208 px;
+    height: 340px;
+}
+.container{
+    text-align: center;
+}
+
+.card {
+    object-fit: cover; 
+    height: 650px;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.btn btn-primary{
+    align-items: flex-end;
+
+}
+
+#iframe{
+    text-align: center;
+    width: 1000px;
+    height: 1000px;
+    margin-left: 180px;
+    border: none;
+}
