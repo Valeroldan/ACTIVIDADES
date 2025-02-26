@@ -1,3 +1,4 @@
+
 function calcularPromedio() {
     
     const nota1 = parseFloat(document.getElementById('nota1').value);
