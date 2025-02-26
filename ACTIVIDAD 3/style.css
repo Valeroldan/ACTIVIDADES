@@ -22,7 +22,7 @@ section{
     text-align: center;
 }
 
-#pagina{
+#pagina {
     background-color: rgb(162, 223, 144);
     padding: 20px;
     margin: 20px auto;
@@ -71,4 +71,10 @@ img.card-img-top{
     height: 1000px;
     margin-left: 180px;
     border: none;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
