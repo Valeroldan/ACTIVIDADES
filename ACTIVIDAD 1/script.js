@@ -42,7 +42,7 @@ function calcularImc(){
     console.log(imc);
     
     const resultado = document.getElementById('resultadoImc');
-    resultado.innerText = `El IMC ES : ${imc.toFixed(2)}`;
+    resultado.innerText = `El IMC ES : ${imc.toFixed(2)} m/kg`;
     resultado.style.color += 'green';
 }
 
