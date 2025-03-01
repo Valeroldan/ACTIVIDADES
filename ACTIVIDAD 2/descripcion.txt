@@ -4,7 +4,8 @@ Grupo 20
 - Julián David Betancurth Castaño
 - Camilo Eduardo Gómez Dávila
 
-Actividad: Mi primera pagina Web
-
-Realiza una página web con las etiquetas básicas aprendidas. Incluye 1 párrafos que hable de cada uno de los 
-integrantes del grupo(Nombres, Profesión, Estudios....), una imagen y un link a una página externa.
+Mi primera pagina Web
+Requisitos de finalización
+Apertura: miércoles, 19 de febrero de 2025, 21:00
+Cierre: viernes, 28 de febrero de 2025, 23:59
+Realiza una página web con las etiquetas básicas aprendidas. Incluye 1 párrafos que hable de cada uno de los integrantes del grupo(Nombres, Profesión, Estudios....), una imagen y un link a una página externa.

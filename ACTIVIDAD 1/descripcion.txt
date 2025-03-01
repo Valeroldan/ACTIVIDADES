@@ -1,0 +1,16 @@
+Grupo 20
+
+- Valentina Roldan Cano
+- Julián David Betancurth Castaño
+- Camilo Eduardo Gómez Dávila
+
+
+Primera actividad
+Requisitos de finalización
+Apertura: miércoles, 19 de febrero de 2025, 21:00
+Cierre: viernes, 28 de febrero de 2025, 23:59
+Crear un proyecto web, para cada una de los siguientes problemas:
+
+Ejercicio 01: Leer por HTML tres notas (0...5) y mostrar el Promedio de Notas, y en un radio seleccionar si con la nota APRUEBA o REPRUEBA, igualmente en mostrar el color VERDE o ROJO
+
+Ejercicio 02: Leer por HTML los datos requeridos para calcular y mostrar e índice de Masa corporal IMC, investigar en internet en que consiste
